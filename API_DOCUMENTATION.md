@@ -1,39 +1,83 @@
-🔐 Authentication
+## 1. Authentication
+This API uses Basic Authentication
 
-This API uses Basic Authentication.
-
+```text
 Username: user
 Password: password123
+```
 
-📡 Base URL
+---
+
+## 2. Base URL
+```bash
 http://localhost:8080/api/books
+```
 
-➕ Create Book
+---
+
+## 3. Create Book
+```bash
 POST /api/books
+```
+
+```json
 {
-"title": "Sample Book",
-"author": "Kerxin",
-"category": "Test",
-"description": "Testing API"
+  "title": "Sample Book",
+  "author": "Kerxin",
+  "category": "Test",
+  "description": "Testing API"
 }
+```
 
-📖 Get Books
+---
+
+## 4. Get Books
+```bash
 GET /api/books
+```
 
-📄 Pagination
+---
+
+## 5. Pagination
+```bash
 GET /api/books?page=0&size=5
+```
 
-🔍 Search
+---
+
+## 6. Search
+```bash
 GET /api/books/search?q=java
+```
 
-✏️ Update Book
+---
+
+## 7. Update Book
+```bash
 PUT /api/books/{id}
+```
 
-❌ Delete Book
+```json
+{
+  "title": "Updated Book",
+  "author": "Kerxin",
+  "category": "Updated",
+  "description": "Updated description"
+}
+```
+
+---
+
+## 8. Delete Book
+```bash
 DELETE /api/books/{id}
+```
 
-🧪 Testing Tool
-Tested using Postman.
+---
 
-👤 Author
-Documentation prepared by Kerxin.
+## 9. Testing Tool
+```text
+Postman
+```
+
+---
