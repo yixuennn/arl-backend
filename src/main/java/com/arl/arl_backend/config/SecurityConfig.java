@@ -12,6 +12,8 @@ import org.springframework.web.cors.CorsConfigurationSource;
 import java.util.List;
 
 @Configuration
+// Security implemented by Kerxin
+
 public class SecurityConfig {
 
     @Bean
