@@ -142,7 +142,7 @@ ArlBackendApplication.java
 The backend will run at:
 
 ```text
-http://localhost:8080
+http://localhost:8080/api/books
 ```
 
 ### Option 2: Run using Maven
