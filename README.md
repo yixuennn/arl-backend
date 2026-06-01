@@ -162,8 +162,13 @@ The backend uses Spring Security Basic Authentication.
 Default credentials:
 
 ```text
+Login as User
 Username: user
-Password: password123
+Password: user123
+
+Login as Admin
+Username: admin
+Password: admin123
 ```
 
 All API requests require Basic Auth.
