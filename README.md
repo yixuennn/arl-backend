@@ -113,9 +113,6 @@ spring.datasource.password=your_mysql_password
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-
-spring.security.user.name=user
-spring.security.user.password=password123
 ```
 
 Replace:
